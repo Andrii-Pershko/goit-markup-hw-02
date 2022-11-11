@@ -1,0 +1,110 @@
+:root {
+  --brand-title-background: #2e2f42;
+  --brand-font: "Roboto", sans-serif;
+  --brand-text-color: #434455;
+  --brand-color-hover: #4d5ae5;
+}
+
+body {
+  background-color: fff;
+  font-family: var(--brand-font);
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--brand-text-color);
+}
+
+/* Шапка */
+.logotop {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-title-background);
+}
+
+.first-word-logo {
+  color: var(--brand-color-hover);
+}
+
+.navigation {
+  font-weight: 600;
+}
+
+.contacts:hover,
+.contacts:focus,
+.navigation:hover,
+.navigation:focus {
+  color: var(--brand-color-hover);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--brand-title-background);
+  color: #fff;
+}
+
+.text-hero {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.active-button {
+  background-color: var(--brand-color-hover);
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+
+.active-button:hover,
+.active-button:focus {
+  background-color: #fff;
+  color: var(--brand-color-hover);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-title-background);
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.paragraph-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--brand-title-background);
+}
+
+/* Footer */
+
+.foot {
+  background-color: var(--brand-title-background);
+  color: #fff;
+}
+
+.logobottom {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.secont-word {
+  color: #fff;
+}
