@@ -4,48 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Студія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title lang="uk">Студія</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
-    <header>
+    <header class="nav">
       <nav>
-        <a class="logotop" href="./"><span class="first-word-logo">WEB</span>STUDIO</a>
-        <ul>
-          <li><a class="navigation" href="">Studio</a></li>
-          <li><a class="navigation" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="navigation" href="">Contacts</a></li>
+        <a href="./" class="link logo logo-top"
+          ><span class="first-word">WEB</span>STUDIO</a
+        >
+        <ul class="list link-nav">
+          <li><a href="" class="link link-hover">Studio</a></li>
+          <li><a href="./portfolio.html" class="link link-hover">Portfolio</a></li>
+          <li><a href="" class="link link-hover">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts" href="tel:+380961111111">+38 096 111-11-11</a></li>
+      <ul class="list link-contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link link-hover"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="link link-hover"
+            >+38 096 111-11-11</a
+          >
+        </li>
       </ul>
     </header>
 
     <!--Main content-->
     <main>
       <!--Герой-->
-      <div class="hero">
-        <section>
-          <h1 class="text-hero">Effective Solutions for Your Business</h1>
-          <a href=""><button class="active-button" type="button">Order Service</button></a>
-        </section>
-      </div>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions<br> for Your Business</h1>
+        <button type="button" class="button-hero">Order Service</button>
+      </section>
 
       <!--Cекція після героя-->
       <section>
-        <ul>
+        <ul class="list">
           <li>
-            <h3 class="paragraph-title">Strategy</h3>
+            <h3>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
@@ -53,7 +60,7 @@
           </li>
 
           <li>
-            <h3 class="paragraph-title">Punctuality</h3>
+            <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
@@ -61,7 +68,7 @@
           </li>
 
           <li>
-            <h3 class="paragraph-title">Diligence</h3>
+            <h3>Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
@@ -69,7 +76,7 @@
           </li>
 
           <li>
-            <h3 class="paragraph-title">Technologies</h3>
+            <h3>Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -80,8 +87,8 @@
 
       <!--Чим ми займаємось-->
       <section>
-        <h2 class="title">What are we doing</h2>
-        <ul>
+        <h2>What are we doing</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/imac.jpg"
@@ -109,46 +116,49 @@
       </section>
 
       <!--Наша команда-->
-      <section class="title team">
+      <section class="our-team">
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list team-list">
           <li>
-            <img src="./images/person1.jpg" alt="" width="264" />
-            <h3 class="paragraph-title">Mark Guerrero</h3>
+            <img src="./images/person-first.jpg" alt="" width="264" />
+            <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
 
           <li>
-            <img src="./images/person2.jpg" alt="Smiling man" width="264" />
-            <h3 class="paragraph-title">Tom Ford</h3>
+            <img src="./images/person-second.jpg" alt="Smiling man" width="264" />
+            <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
 
           <li>
             <img
-              src="./images/person3.jpg"
+              src="./images/person-third.jpg"
               alt="A girl with long hair"
               width="264"
             />
-            <h3 class="paragraph-title">Camila Garcia</h3>
+            <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
 
           <li>
             <img
-              src="./images/person4.jpg"
+              src="./images/person-fouth.jpg"
               alt="Smiling man with stubble"
               width="264"
+              class="imje"
             />
-            <h3 class="paragraph-title">Daniel Wilson</h3>
+            <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Підвал Footer-->
-    <footer class="foot">
-      <a class="logobottom" href="./"><span class="first-word-logo">WEB</span><span class="secont-word">STUDIO</span></a>
+    <footer class="footer">
+      <a href="./" class="link logo logo-bottom"
+        ><span class="first-word">WEB</span>STUDIO</a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

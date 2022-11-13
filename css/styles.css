@@ -1,110 +1,152 @@
 :root {
-  --brand-title-background: #2e2f42;
-  --brand-font: "Roboto", sans-serif;
-  --brand-text-color: #434455;
-  --brand-color-hover: #4d5ae5;
+  --color-title-background: #2e2f42;
+  --color-text: #434455;
+  --color-studio: #4d5ae5;
+  --alternative-color: #f4f4fd;
 }
 
 body {
-  background-color: fff;
-  font-family: var(--brand-font);
-  font-style: normal;
-  font-weight: 400px;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  background-color: #ffffff;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--brand-text-color);
 }
 
-/* Шапка */
-.logotop {
-  font-family: "Raleway";
-  font-style: normal;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--brand-title-background);
-}
+/* title */
 
-.first-word-logo {
-  color: var(--brand-color-hover);
-}
-
-.navigation {
-  font-weight: 600;
-}
-
-.contacts:hover,
-.contacts:focus,
-.navigation:hover,
-.navigation:focus {
-  color: var(--brand-color-hover);
-}
-
-/* Герой */
-.hero {
-  background-color: var(--brand-title-background);
-  color: #fff;
-}
-
-.text-hero {
-  font-weight: 600;
-  font-size: 56px;
-  line-height: 60px;
-}
-
-.active-button {
-  background-color: var(--brand-color-hover);
-  color: #fff;
-  cursor: pointer;
-  letter-spacing: 0.04em;
-}
-
-.active-button:hover,
-.active-button:focus {
-  background-color: #fff;
-  color: var(--brand-color-hover);
-}
-
-.title {
+h2 {
   font-weight: 600;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
   text-transform: capitalize;
-  color: var(--brand-title-background);
+  color: var(--color-title-background);
 }
 
-.team {
-  background-color: #f4f4fd;
-}
-
-.paragraph-title {
+h3 {
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--brand-title-background);
+  line-height: 1.2;
+  color: var(--color-title-background);
 }
 
-/* Footer */
+/* Link formating */
 
-.foot {
-  background-color: var(--brand-title-background);
-  color: #fff;
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 
-.logobottom {
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+.list {
+  list-style-type: none;
 }
-.secont-word {
-  color: #fff;
+
+.link-nav a {
+  color: var(--color-title-background);
+  font-weight: 600;
+}
+
+.link-contacts a {
+  color: var(--color-text);
+}
+
+.link-hover:hover,
+.link-hover:focus {
+  color: var(--color-studio);
+}
+
+/* logo style */
+
+.logo {
+  color: var(--color-title-background);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.first-word {
+  color: var(--color-studio);
+}
+
+.logo-bottom {
+  color: var(--alternative-color);
+}
+
+/* Hero styles */
+
+.hero {
+  color: #ffffff;
+  background-color: var(--color-title-background);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.button-hero {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--color-studio);
+  border: 0;
+  cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  color: var(--color-studio);
+  background-color: #ffffff;
+}
+
+/* Our Team */
+
+.our-team {
+  background-color: var(--alternative-color);
+}
+
+.team-list li {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--color-title-background);
+  color: #e7e9fc;
+}
+
+/* Page Portfolio */
+
+.title-portfolio {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.button {
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-studio);
+  background-color: var(--alternative-color);
+  border: 0;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--alternative-color);
+  background-color: var(--color-studio);
 }
