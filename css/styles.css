@@ -3,14 +3,14 @@
   --color-text: #434455;
   --color-studio: #4d5ae5;
   --alternative-color: #f4f4fd;
+  --bacground-color-text: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
-  background-color: #ffffff;
+  background-color: var(--bacground-color-text);
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -80,15 +80,15 @@ h3 {
 /* Hero styles */
 
 .hero {
-  color: #ffffff;
+  color: var(--bacground-color-text);
   background-color: var(--color-title-background);
   text-align: center;
 }
 
 .hero-title {
-  font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
+  max-width: 492px;
 }
 
 .button-hero {
@@ -97,7 +97,7 @@ h3 {
   line-height: 1.18;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--bacground-color-text);
   background-color: var(--color-studio);
   border: 0;
   cursor: pointer;
@@ -106,7 +106,7 @@ h3 {
 .button-hero:hover,
 .button-hero:focus {
   color: var(--color-studio);
-  background-color: #ffffff;
+  background-color: var(--bacground-color-text);
 }
 
 /* Our Team */
@@ -116,7 +116,7 @@ h3 {
 }
 
 .team-list li {
-  background-color: #ffffff;
+  background-color: var(--bacground-color-text);
   text-align: center;
 }
 
