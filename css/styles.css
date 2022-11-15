@@ -4,6 +4,7 @@
   --color-studio: #4d5ae5;
   --alternative-color: #f4f4fd;
   --bacground-color-text: #ffffff;
+  --hover-color: #434455;
 }
 
 body {
@@ -55,6 +56,10 @@ h3 {
 
 .link-hover:hover,
 .link-hover:focus {
+  color: var(--hover-color);
+}
+
+.link:active {
   color: var(--color-studio);
 }
 
@@ -101,12 +106,11 @@ h3 {
   background-color: var(--color-studio);
   border: 0;
   cursor: pointer;
+  border-radius: 4px;
 }
 
-.button-hero:hover,
-.button-hero:focus {
-  color: var(--color-studio);
-  background-color: var(--bacground-color-text);
+.button-hero:active {
+  background-color: #404bbf;
 }
 
 /* Our Team */
@@ -143,6 +147,7 @@ h3 {
   background-color: var(--alternative-color);
   border: 0;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover,
